@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="../../../../bootstrap/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="container">
+	<h1>
+	I was out late the other night / Fear and whiskey kept me going / I swore somebody held me tight / but now there's just no way of knowing
+	</h1>
+	<div id="main" role="main">
+		Hey, this is gonna be a pretty short post, as I'm on my way to sleep soon, and I don't have all that much to say. I've finally made some real progress on getting my revamped site together, and I should be able to get it up and running within a couple of weeks. Or maybe even something more reasonable than that. Whatever. Anyway, the title of the post comes from the song "Chivalry" by the Mekons on _Fear and Whiskey_, which is a fantastic album. Other good stuff I've been listening to recently: The Robert Cray Band's _Strong Persuader_, Girls' _Album_, Pere Ubu's _Dub Housing_, Sleater-Kinney's _Call the Doctor_, and Archers of Loaf's _Icky Mettle_. I cannot believe how much incredible music is out there, just waiting for someone to listen to it. Oh, and Aztec Camera's _High Land, Hard Rain_, which I'm not sure about. I have to give it some more time before rendering my verdict. Did you know Bertrand Russell invented Type Theory like 40 years before it was explored in the context of programming languages. Now I'm going to sleep, so goodnight moon. Goodnight, stars. Goodnight, Mars. Goodnight, folks. -Spencer
+	</div>
+	<footer>
+	<address>
+	Spencer Gordon <br />
+	69 Brown St. Box #3850 <br />
+	Brown University <br />
+	Providence, RI 02912 <br />
+	</footer>
+</div>
+
+</body>
+</html>

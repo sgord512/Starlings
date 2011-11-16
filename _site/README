@@ -1,0 +1,24 @@
+Ok, so I have a pretty solid layout in place. It's super customizable, and really pretty.
+
+I now want to write a ruby script that uses Kramdown to generate HTML from Markdown, and I can then do my own super-simple static site generator.
+
+COMPLETED:
+I can now parse posts in Markdown, and pop them into HTML with liquid templating
+I now have a script that will create the requisite folder for that
+
+TODO:
+Add metadata, and figure out how to extract it, and put it on the page correctly
+
+Compile all the posts for a 'recent posts'-type thing
+
+Get the css working even better
+
+
+I have it under git, so it can be all be nicely version-controlled.
+
+I can use less to generate CSS.
+
+So my next step is to figure out how I want to organize posts, and how I want to have them before site generation.
+
+(Probably markdown, and I will do something like YAML front-matter for meta-data) 
+
