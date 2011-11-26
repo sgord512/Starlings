@@ -6,7 +6,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
- * Date: Tue Nov 15 19:49:54 EST 2011
+ * Date: Sat Nov 26 00:15:12 PST 2011
  */
 /* Reset.less
  * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
@@ -181,7 +181,7 @@ textarea {
  * Basic and global styles for generating a grid system, structural layout, and page templates
  * ------------------------------------------------------------------------------------------- */
 html, body {
-  background-color: #049cdb;
+  background-color: #032b1f;
 }
 body {
   margin: 0;
@@ -189,7 +189,7 @@ body {
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
-  color: #db0414;
+  color: #000000;
 }
 .container {
   width: 940px;
@@ -206,28 +206,25 @@ body {
 .container:after {
   clear: both;
 }
-.container-fluid {
-  position: relative;
-  min-width: 940px;
-  padding-left: 20px;
-  padding-right: 20px;
-  zoom: 1;
+.content {
+  padding: 20px;
+  margin: 0 -20px;
+  background-color: #ffffff;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
-.container-fluid:before, .container-fluid:after {
-  display: table;
-  content: "";
-  zoom: 1;
-  *display: inline;
+.page-header {
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+  background-color: #0a8a64;
 }
-.container-fluid:after {
-  clear: both;
-}
-.container-fluid > .sidebar {
-  float: left;
-  width: 220px;
-}
-.container-fluid > .content {
-  margin-left: 240px;
+.container > .footer p {
+  color: #ffffff;
+  text-align: center;
 }
 a {
   color: #0069d6;

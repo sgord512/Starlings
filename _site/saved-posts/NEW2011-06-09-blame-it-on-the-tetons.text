@@ -4,32 +4,40 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
+	<title>Blame it on the Tetons</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link rel="stylesheet" href="../../../../bootstrap/bootstrap.min.css">
-
 </head>
 <body>
 
 <div class="container">
+	<div class="content">
+		<div class="page-header">
 	<h1>
 	Blame it on the Tetons
 	</h1>
-	<div id="main" role="main">
+			</div>
+			
+	<div class="row">
+		<div class="span3">
+			<ul>	
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a></li>
+</ul>
+			</div>
+			<div class="span13">
 		The title above is the name of Modest Mouse song. Not even one of my favorites, but an interesting one, and the one that I am playing right now. I'm about to go to sleep. Here's a thing: I
+				</div>
 	</div>
-	<footer>
-	<address>
-	Spencer Gordon <br />
-	69 Brown St. Box #3850 <br />
-	Brown University <br />
-	Providence, RI 02912 <br />
-	</footer>
+	</div>
+<div class="footer">
+	<p>&copy; Spencer Gordon 2011- </p>
 </div>
 
+</div>
 </body>
 </html>

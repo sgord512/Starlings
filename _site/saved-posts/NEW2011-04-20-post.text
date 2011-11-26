@@ -4,32 +4,40 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
+	<title>Post</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link rel="stylesheet" href="../../../../bootstrap/bootstrap.min.css">
-
 </head>
 <body>
 
 <div class="container">
+	<div class="content">
+		<div class="page-header">
 	<h1>
 	Post
 	</h1>
-	<div id="main" role="main">
+			</div>
+			
+	<div class="row">
+		<div class="span3">
+			<ul>	
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a></li>
+</ul>
+			</div>
+			<div class="span13">
 		> Good morning Providence and the rest of New England, and may the sun shine upon all your endeavors today. So I've been in a state of mind recently where I seem to experience little epiphanies on a weekly basis, if not more often than that. Unfortunately I am worried that I will lose sight of these revelations when I need them most in the future, and I want to have them inscribed somewhere so that I can be often reminded of them. While I don't think that my blog is the place for this, I want to organize my thoughts, and so here is a rough draft of my recent epiphanies (also, I recognize that these are going to sound pretty prosaic, but they are here because they have recently become alive to me for the first time): This is what I had planned to write, and had started to write couple of days ago, but I never got around to finishing it, and I can't think of an appropriate way to finish it, so I'm going to go ahead and write something else, 'cause I cannot spend my time doing this. I don't know what I am doing at the moment, and I am tired, and I am just about to go to sleep but I don't want to go to sleep having not posted anything in a while. I don't have many thoughts at the moment, and I don't want to ramble on tediously. I feel very heavy, heavy with thought, like I can't work up the energy to do anything good. I should just go to sleep, and I will soon, but I can't help but feel as though if I were to go to sleep now, I would be giving up, letting the thoughts that swarm like bees through my mind continue their mad flight all night. I really really need to go to sleep. Ok, goodnight. -Spencer (the next post will hopefully be a little more exciting...)
+				</div>
 	</div>
-	<footer>
-	<address>
-	Spencer Gordon <br />
-	69 Brown St. Box #3850 <br />
-	Brown University <br />
-	Providence, RI 02912 <br />
-	</footer>
+	</div>
+<div class="footer">
+	<p>&copy; Spencer Gordon 2011- </p>
 </div>
 
+</div>
 </body>
 </html>

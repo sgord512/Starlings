@@ -4,32 +4,40 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
+	<title>Through rain, sleet, snow, or mud...?</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link rel="stylesheet" href="../../../../bootstrap/bootstrap.min.css">
-
 </head>
 <body>
 
 <div class="container">
+	<div class="content">
+		<div class="page-header">
 	<h1>
 	Through rain, sleet, snow, or mud...?
 	</h1>
-	<div id="main" role="main">
+			</div>
+			
+	<div class="row">
+		<div class="span3">
+			<ul>	
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a></li>
+</ul>
+			</div>
+			<div class="span13">
 		I am posting now only in order to keep up my record of consistently posting, so that I may perhaps turn blogging into a habit like brushing my teeth and flossing. It would be lovely if three years from now, I could look back at the collected writings I'd made, and be taken back to myself when I was younger, remembering where I was and who I was with and what I cared about. But for this to work out, I have to actually keep up the posting, and get it so habitual I almost don't even think about it any more. What are some non-meta thoughts I've had lately? Well, first there is a class of albums I put on right before I go to bed, and though I don't know what makes them work for going to sleep, I just know whether or not they will work. Right now, for example, Roxy Music's _Avalon_. The soft sultry pulse, and Bryan Ferry's honeyed baritone. The sense one gets when listening to this album that every song is just on the verge of fading out at all times. Anyway, I'm going to sleep now, before I am no longer tired. Through the soothing sounds of slippery guitars and soft synths, Spencer, signing off for today.
+				</div>
 	</div>
-	<footer>
-	<address>
-	Spencer Gordon <br />
-	69 Brown St. Box #3850 <br />
-	Brown University <br />
-	Providence, RI 02912 <br />
-	</footer>
+	</div>
+<div class="footer">
+	<p>&copy; Spencer Gordon 2011- </p>
 </div>
 
+</div>
 </body>
 </html>

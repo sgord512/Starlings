@@ -4,32 +4,40 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
+	<title>How do you debug the world, I don't know.</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link rel="stylesheet" href="../../../../bootstrap/bootstrap.min.css">
-
 </head>
 <body>
 
 <div class="container">
+	<div class="content">
+		<div class="page-header">
 	<h1>
 	How do you debug the world, I don't know.
 	</h1>
-	<div id="main" role="main">
+			</div>
+			
+	<div class="row">
+		<div class="span3">
+			<ul>	
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a></li>
+</ul>
+			</div>
+			<div class="span13">
 		I am in the middle of a project that requires substantial debugging. I don't enjoy doing it. I don't know how to handle it very well. I don't know how to handle it at all really. Anyway, a day later I am sitting here, listening to _Summerteeth_, an absolutely gorgeous album that I instantly recommend to all human beings. That's all for now, and now the day later, I am finishing the post I started a long time ago. This is taking forever, and I don't have much of a good reason, and I am a little bit frustrated by it. I am now going to figure this out. Actually, I'm just going to post this, because this is going nowhere, and I know that if I force myself to keep writing, I am just going to get more irritated, and I won't like whatever it is that I end up writing. So goodbye for now, and I'll try and post later tonight, when I actually have something to say. -Spencer
+				</div>
 	</div>
-	<footer>
-	<address>
-	Spencer Gordon <br />
-	69 Brown St. Box #3850 <br />
-	Brown University <br />
-	Providence, RI 02912 <br />
-	</footer>
+	</div>
+<div class="footer">
+	<p>&copy; Spencer Gordon 2011- </p>
 </div>
 
+</div>
 </body>
 </html>

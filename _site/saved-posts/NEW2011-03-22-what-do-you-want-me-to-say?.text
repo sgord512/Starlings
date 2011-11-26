@@ -4,32 +4,40 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
+	<title>What do you want me to say?</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link rel="stylesheet" href="../../../../bootstrap/bootstrap.min.css">
-
 </head>
 <body>
 
 <div class="container">
+	<div class="content">
+		<div class="page-header">
 	<h1>
 	What do you want me to say?
 	</h1>
-	<div id="main" role="main">
+			</div>
+			
+	<div class="row">
+		<div class="span3">
+			<ul>	
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a></li>
+</ul>
+			</div>
+			<div class="span13">
 		There's a great line in a Dismemberment Plan song, something like, "What do you want me to say to let you know that I still love you". What may sound flat on the page sears in the song, as Travis half screams, half begs to know how to make his lover understand him. Or something like that. A lot of lyrics I like are not particularly complex, but they are sentiments that are rarely found in pop music, articulated clearly, sentiments which I myself have had, but have failed to articulate. Others are particularly evocative images, or exceedingly clever and simultaneously true. I don't like clever that seems to be devoid of meaning, though I'm not actually sure when I think about it what that would look like. I'll come back to this post a little later, and add to it.
+				</div>
 	</div>
-	<footer>
-	<address>
-	Spencer Gordon <br />
-	69 Brown St. Box #3850 <br />
-	Brown University <br />
-	Providence, RI 02912 <br />
-	</footer>
+	</div>
+<div class="footer">
+	<p>&copy; Spencer Gordon 2011- </p>
 </div>
 
+</div>
 </body>
 </html>

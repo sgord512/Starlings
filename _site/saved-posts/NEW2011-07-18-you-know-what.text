@@ -4,32 +4,40 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
+	<title>You know what?</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link rel="stylesheet" href="../../../../bootstrap/bootstrap.min.css">
-
 </head>
 <body>
 
 <div class="container">
+	<div class="content">
+		<div class="page-header">
 	<h1>
 	You know what?
 	</h1>
-	<div id="main" role="main">
+			</div>
+			
+	<div class="row">
+		<div class="span3">
+			<ul>	
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a></li>
+</ul>
+			</div>
+			<div class="span13">
 		Here's something: I hate that it isn't okay acknowledge that any social interaction has more going on than may be immediately apparent. Whenever I spend time with someone, I am choosing to do so, because I enjoy spending time with that person. If I eat a meal with someone, I am choosing to spend time with that person. I can always eat alone. With a backpack and a laptop and headphones, I am theoretically able to never spend any time with anyone. In that context, any social interaction is a reciprocal agreement to spend time with each other with the implicit understanding that the parties in question enjoy the company of the others. But you can't say that. It is unacceptable to talk about wanting to spend time with people without concrete activities in mind. I hate the conventions of conversation that say that social situations can never be explicitly addressed. ------ ten minutes later: I wrote the above, and saved it as a draft, hesitant to publish it, because I wasn't totally comfortable with it. But that reminded me that I can post whatever the fuck I want to the blog, and so it's going up. (How do I always manage to lose sight of this one foundational fact?)
+				</div>
 	</div>
-	<footer>
-	<address>
-	Spencer Gordon <br />
-	69 Brown St. Box #3850 <br />
-	Brown University <br />
-	Providence, RI 02912 <br />
-	</footer>
+	</div>
+<div class="footer">
+	<p>&copy; Spencer Gordon 2011- </p>
 </div>
 
+</div>
 </body>
 </html>
