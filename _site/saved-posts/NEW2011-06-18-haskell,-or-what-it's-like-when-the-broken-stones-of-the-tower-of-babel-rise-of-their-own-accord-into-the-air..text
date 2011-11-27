@@ -17,19 +17,21 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-	<h1>
-	Haskell, or what it's like when the broken stones of the tower of Babel rise of their own accord into the air.
-	</h1>
+<h1>Starlings of the Slipstream</h1>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
 			<ul>	
-	<li><a href="">Home</a></li>
-	<li><a href="">About</a></li>
+	<li><a href="/index.html">Home</a></li>
+	<li><a href="/about.html">About</a></li>
+	<li><a href="all-posts.html">All Posts</a></li>
 </ul>
 			</div>
 			<div class="span13">
+				<h2>
+				Haskell, or what it's like when the broken stones of the tower of Babel rise of their own accord into the air.
+				</h2>
 		Every programmer I've known has had a strong opinion on which programming language they preferred to use, and (being macho and arrogant) has believed that their language of choice is objectively better. This may not be surprising to non-programmers, but what may be more surprising is the content of the arguments about languages. Very often, languages are compared in very impressionistic ways, and a lot of complaints about languages are about how they feel clunky, or are ugly. When I talk about a language being clunky or ugly, what I think I'm really talking about is the amount of distance the language puts between my ideas and their implementation.
 				</div>
 	</div>

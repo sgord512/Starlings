@@ -1,6 +1,16 @@
 ---
 layout: home
 ---
-	{% for post in site.posts %}
-	<p>{{ post.date | date: "%m/%d/%y" }} - <a href="{{ post.url }}">{{ post.title }}</a></p>
+	{% assign post = site.posts.first %}
+	<h2>{{ post.date | date: "%m/%d/%y" }} - {{ post.title }}</h2>
+<p>{{ post.content }}</p>
+<h6><a href="{{ post.url }}">permalink</a></h6>
+<br />
+<h3>Older Posts</h3>
+{% for post in site.posts %}
+	{% unless forloop.first %} <p>{{ post.date | date: "%m/%d/%y" }} -
+<a href="{{ post.url }}">{{ post.title }}</a></p>
+{% endunless %}
 	{% endfor %}
+
+
