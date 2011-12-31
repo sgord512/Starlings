@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				Why have I been missing?
-				</h2>
-		Well usually the answer is negative. Usually any absences from the blog are due to downswings in mood, unfortunate days of feeling like it would be too much work to post. This time, I'm happy to report, I have been feeling very good for the past two days. For one, it was my birthday, and I had a really good one. Everyone was great, and made me feel tremendously loved, which was awesome. Let me just say: You guys don't know how much your support means to me, and I can't thank you enough. You are awesome. Two, life's good these days. One negative note in an otherwise nice week: I think that depressive imagery, and the fixated ruminations of depression probably make for better blog material, as it is really hard to come up with interesting ways for things to go right. Anyway, I'll be back with actual thoughts and such tomorrow, but for now, just letting you know that I'm good, you're good, and it's all good. -Sly Cooper/Fox -Salt -Salmon -Switzerland -Svengali -Spencer
+				</h3>
+		<p>Well usually the answer is negative. Usually any absences from the blog are due to downswings in mood, unfortunate days of feeling like it would be too much work to post. This time, I&#8217;m happy to report, I have been feeling very good for the past two days. For one, it was my birthday, and I had a really good one. Everyone was great, and made me feel tremendously loved, which was awesome. Let me just say: You guys don&#8217;t know how much your support means to me, and I can&#8217;t thank you enough. You are awesome. Two, life&#8217;s good these days. One negative note in an otherwise nice week: I think that depressive imagery, and the fixated ruminations of depression probably make for better blog material, as it is really hard to come up with interesting ways for things to go right. Anyway, I&#8217;ll be back with actual thoughts and such tomorrow, but for now, just letting you know that I&#8217;m good, you&#8217;re good, and it&#8217;s all good. -Sly Cooper/Fox -Salt -Salmon -Switzerland -Svengali -Spencer</p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				So I really don't have all that much to say tonight, and I am just pretty tired.
-				</h2>
-		See above: One note: "Mayan Science" would be a great band name. Or, stolen from a friend, "Mayan Silence". Also, listen to Big Star, because "Thirteen" will break your heart, and "In the Street" will put you back together. Also, _ Ga Ga Ga Ga Ga _ by Spoon is awesome. "Don't Make Me a Target" is ridiculously awesome. Goodnight, And may you rest now so that in the morning you awake ready to face the day. -Spencer (or is that just my blog name?) (It is my actual name.) (But it won't be soon. Maybe. Probably it will be. I will give ample notice if I do change it later, so don't worry.)
+				</h3>
+		<p>See above: One note: &#8220;Mayan Science&#8221; would be a great band name. Or, stolen from a friend, &#8220;Mayan Silence&#8221;. Also, listen to Big Star, because &#8220;Thirteen&#8221; will break your heart, and &#8220;In the Street&#8221; will put you back together. Also, _ Ga Ga Ga Ga Ga _ by Spoon is awesome. &#8220;Don&#8217;t Make Me a Target&#8221; is ridiculously awesome. Goodnight, And may you rest now so that in the morning you awake ready to face the day. -Spencer (or is that just my blog name?) (It is my actual name.) (But it won&#8217;t be soon. Maybe. Probably it will be. I will give ample notice if I do change it later, so don&#8217;t worry.)</p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

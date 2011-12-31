@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Creepster+Caps);
 /*!
  * Bootstrap v1.3.0
  *
@@ -7,7 +6,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
- * Date: Sat Nov 26 17:43:21 PST 2011
+ * Date: Fri Dec 30 00:49:04 MST 2011
  */
 /* Reset.less
  * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
@@ -219,14 +218,65 @@ body {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 .page-header {
-  padding: 20px 20px 10px;
+  padding: 20px 20px 5px;
   margin: -20px -20px 20px;
-  background-color: #0a8a64;
-  font-family: 'Creepster Caps', cursive;
+  background-color: #49957e;
+}
+.page-header h1 {
+  float: left;
+}
+.page-header h3 {
+  text-align: right;
+  vertical-align: bottom;
+}
+.page-header::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.variable {
+  clear: both;
 }
 .container > .footer p {
+  text-align: right;
+  padding: 10px 5px;
   color: #ffffff;
-  text-align: center;
+}
+.block {
+  padding: 5px 10px 5px;
+  margin: 10px 0px 10px;
+  background-color: #e6e6e6;
+  text-align: justify;
+}
+.post {
+  padding: 5px 10px 5px;
+  margin: 10px 0px 10px;
+  background-color: #e6e6e6;
+  text-align: justify;
+}
+.post h3 {
+  display: inline;
+  line-height: 18px;
+}
+.post h6 {
+  float: right;
+  line-height: 18px;
+}
+.post p {
+  clear: both;
+}
+.post img {
+  float: left;
+}
+.post .clickable {
+  display: inline;
+}
+.post::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
 }
 a {
   color: #0069d6;
@@ -475,6 +525,8 @@ ol {
   list-style: decimal;
 }
 li {
+  font-size: 13px;
+  text-transform: uppercase;
   line-height: 18px;
   color: #808080;
 }

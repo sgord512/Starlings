@@ -25,10 +25,12 @@
 			{% include sidebar.html %}
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				{{ page.title }}
-				</h2>
-		{{ content }}
+				</h3>
+		{{ content | markdownify }}
+				</div>
 				</div>
 	</div>
 	</div>

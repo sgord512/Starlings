@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				Heroes:
-				</h2>
-		I've been thinking a lot recently about who my heroes are. For someone to be a hero to me, they must be fundamentally good, fundamentally concerned with the well-being of human kind, fundamentally kind to others. I can only think of a few people who fit that criterion, and I am on the fence about some of them. Maybe the only person who I truly believe is as good a person as can be is Mr. Rogers. Watch this clip: [youtube=http://www.youtube.com/watch?v=yXEuEUQIP3Q]. I love everything about this clip. -S
+				</h3>
+		<p>I&#8217;ve been thinking a lot recently about who my heroes are. For someone to be a hero to me, they must be fundamentally good, fundamentally concerned with the well-being of human kind, fundamentally kind to others. I can only think of a few people who fit that criterion, and I am on the fence about some of them. Maybe the only person who I truly believe is as good a person as can be is Mr. Rogers. Watch this clip: <span>youtube=http://www.youtube.com/watch?v=yXEuEUQIP3Q</span>. I love everything about this clip. -S</p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

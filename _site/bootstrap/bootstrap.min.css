@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Creepster+Caps);
 html,body{margin:0;padding:0;}
 h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -26,8 +25,18 @@ body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:
 .container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;*display:inline;}
 .container:after{clear:both;}
 .content{padding:20px;margin:0 -20px;background-color:#ffffff;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.15);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.15);box-shadow:0 1px 2px rgba(0, 0, 0, 0.15);}
-.page-header{padding:20px 20px 10px;margin:-20px -20px 20px;background-color:#0a8a64;font-family:'Creepster Caps',cursive;}
-.container>.footer p{color:#ffffff;text-align:center;}
+.page-header{padding:20px 20px 5px;margin:-20px -20px 20px;background-color:#49957e;}.page-header h1{float:left;}
+.page-header h3{text-align:right;vertical-align:bottom;}
+.page-header::after{content:"";display:block;visibility:hidden;clear:both;}
+.variable{clear:both;}
+.container>.footer p{text-align:right;padding:10px 5px;color:#ffffff;}
+.block{padding:5px 10px 5px;margin:10px 0px 10px;background-color:#e6e6e6;text-align:justify;}
+.post{padding:5px 10px 5px;margin:10px 0px 10px;background-color:#e6e6e6;text-align:justify;}.post h3{display:inline;line-height:18px;}
+.post h6{float:right;line-height:18px;}
+.post p{clear:both;}
+.post img{float:left;}
+.post .clickable{display:inline;}
+.post::after{content:"";display:block;visibility:hidden;clear:both;}
 a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
 .pull-right{float:right;}
 .pull-left{float:left;}
@@ -89,7 +98,7 @@ ul,ol{margin:0 0 18px 25px;}
 ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
 ul{list-style:disc;}
 ol{list-style:decimal;}
-li{line-height:18px;color:#808080;}
+li{font-size:13px;text-transform:uppercase;line-height:18px;color:#808080;}
 ul.unstyled{list-style:none;margin-left:0;}
 dl{margin-bottom:18px;}dl dt,dl dd{line-height:18px;}
 dl dt{font-weight:bold;}

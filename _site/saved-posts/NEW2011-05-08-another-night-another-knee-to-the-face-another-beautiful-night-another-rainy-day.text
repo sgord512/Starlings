@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				Another night, another knee to the face. Another beautiful night. Another rainy day.
-				</h2>
-		So, As the title of this post may suggest, I am alternately feeling good and bad, and I know that those are the most generic descriptions possible, but I chose them, because that is all I mean to say. I don't want to say any more. I know why, and I know why. Tomorrow is another day, and I will try again tomorrow. Starting fresh, not feeling so very heavy anymore. Right now, my whole body wants to drop to the floor. My whole soul slides towards sleep. I am asleep. -Sssssss
+				</h3>
+		<p>So, As the title of this post may suggest, I am alternately feeling good and bad, and I know that those are the most generic descriptions possible, but I chose them, because that is all I mean to say. I don&#8217;t want to say any more. I know why, and I know why. Tomorrow is another day, and I will try again tomorrow. Starting fresh, not feeling so very heavy anymore. Right now, my whole body wants to drop to the floor. My whole soul slides towards sleep. I am asleep. -Sssssss</p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

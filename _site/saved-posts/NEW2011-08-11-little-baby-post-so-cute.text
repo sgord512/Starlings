@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				Little Baby Post, so Cute!
-				</h2>
-		Just checking in. Saying I'm here, I'm a bear, a pear, rhyming Simon, speaking in fractured English, sprained ankles, and chained angles. Beatles song of the day: "I've Just Seen a Face". Anonymous shout-out to the friend who got me hooked on this one. Good work, anonymous friend. I sometimes wonder if I should be more paranoid about keeping myself anonymous, or whether I should do the opposite, and make this page a real home for me on the internet. Though I'm thinking of leaving Wordpress for self-hosting soon, with a little bit of Git, Node.js, Heroku. But I probably won't get around to it for forever, because I am one lazy sun. Sunflowers, stunguns, sturgeon, the Nobel Prize, the way the light shimmers in water, the way you tense up at night, as your body tells you with increasing urgency to get offline and just go to sleep already, you little fool. So that's that. Transmission concluded.
+				</h3>
+		<p>Just checking in. Saying I&#8217;m here, I&#8217;m a bear, a pear, rhyming Simon, speaking in fractured English, sprained ankles, and chained angles. Beatles song of the day: &#8221;I&#8217;ve Just Seen a Face&#8221;. Anonymous shout-out to the friend who got me hooked on this one. Good work, anonymous friend. I sometimes wonder if I should be more paranoid about keeping myself anonymous, or whether I should do the opposite, and make this page a real home for me on the internet. Though I&#8217;m thinking of leaving Wordpress for self-hosting soon, with a little bit of Git, Node.js, Heroku. But I probably won&#8217;t get around to it for forever, because I am one lazy sun. Sunflowers, stunguns, sturgeon, the Nobel Prize, the way the light shimmers in water, the way you tense up at night, as your body tells you with increasing urgency to get offline and just go to sleep already, you little fool. So that&#8217;s that. Transmission concluded.</p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

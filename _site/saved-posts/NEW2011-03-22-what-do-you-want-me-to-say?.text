@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				What do you want me to say?
-				</h2>
-		There's a great line in a Dismemberment Plan song, something like, "What do you want me to say to let you know that I still love you". What may sound flat on the page sears in the song, as Travis half screams, half begs to know how to make his lover understand him. Or something like that. A lot of lyrics I like are not particularly complex, but they are sentiments that are rarely found in pop music, articulated clearly, sentiments which I myself have had, but have failed to articulate. Others are particularly evocative images, or exceedingly clever and simultaneously true. I don't like clever that seems to be devoid of meaning, though I'm not actually sure when I think about it what that would look like. I'll come back to this post a little later, and add to it.
+				</h3>
+		<p>There&#8217;s a great line in a Dismemberment Plan song, something like, &#8220;What do you want me to say to let you know that I still love you&#8221;. What may sound flat on the page sears in the song, as Travis half screams, half begs to know how to make his lover understand him. Or something like that. A lot of lyrics I like are not particularly complex, but they are sentiments that are rarely found in pop music, articulated clearly, sentiments which I myself have had, but have failed to articulate. Others are particularly evocative images, or exceedingly clever and simultaneously true. I don&#8217;t like clever that seems to be devoid of meaning, though I&#8217;m not actually sure when I think about it what that would look like. I&#8217;ll come back to this post a little later, and add to it.</p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				Wait...
-				</h2>
-		So I just listened to _Kaputt_ by Destroyer, which is a really solid album, with some truly remarkable songs. "Bay of Pigs" is one of the best 11min songs I've heard in a while. Which reminds me. For some reason, I'd never actually listened CSNY, and I played "Suite: Judy Blue Eyes" a couple of times over the past week, and I really like it quite a bit. My favorite part is probably the end, which picks up the pace, switches to Spanish, and makes the rhythm awesome. I think this is one of those tracks that could be 10 times better with better production. I don't know what it is, but it feels a little thin, and distant at times. Listened again to the College Dropout, which is a stunning album, with about 8 or 9 songs that are stunningly good. His latest is in my todo list, and I imagine I'll eventually get to all of his stuff, though I really cannot stand the cover of _ Graduation _.
+				</h3>
+		<p>So I just listened to <em>Kaputt</em> by Destroyer, which is a really solid album, with some truly remarkable songs. &#8220;Bay of Pigs&#8221; is one of the best 11min songs I&#8217;ve heard in a while. Which reminds me. For some reason, I&#8217;d never actually listened CSNY, and I played &#8220;Suite: Judy Blue Eyes&#8221; a couple of times over the past week, and I really like it quite a bit. My favorite part is probably the end, which picks up the pace, switches to Spanish, and makes the rhythm awesome. I think this is one of those tracks that could be 10 times better with better production. I don&#8217;t know what it is, but it feels a little thin, and distant at times. Listened again to the College Dropout, which is a stunning album, with about 8 or 9 songs that are stunningly good. His latest is in my todo list, and I imagine I&#8217;ll eventually get to all of his stuff, though I really cannot stand the cover of _ Graduation <em>.</em></p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

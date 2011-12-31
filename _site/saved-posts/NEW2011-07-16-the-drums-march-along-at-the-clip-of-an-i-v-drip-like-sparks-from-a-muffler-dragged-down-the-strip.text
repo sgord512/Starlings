@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				The drums march along at the clip of an I.V. Drip / like sparks from a muffler dragged down the strip
-				</h2>
-		The above quote is from "People" by The Silver Jews, off _American Water_. I really don't have anything to say right now. I feel like I have the potential to accomplish tremendous things. But I must decide in which realm I want to accomplish so I can get started. That is quite the dilemma. I should probably just go to sleep. Part of the reason that I haven't been blogging so much recently, is that I haven't really felt like I've had anything I wanted to say particularly. Whenever I have free time, I would much rather program or play guitar, or spend time with people than blog. Ugghhhh. I don't know. Maybe I'll regain my enthusiasm some time soon, but I don't know. I'm tired, man. Goodnight.
+				</h3>
+		<p>The above quote is from &#8220;People&#8221; by The Silver Jews, off <em>American Water</em>. I really don&#8217;t have anything to say right now. I feel like I have the potential to accomplish tremendous things. But I must decide in which realm I want to accomplish so I can get started. That is quite the dilemma. I should probably just go to sleep. Part of the reason that I haven&#8217;t been blogging so much recently, is that I haven&#8217;t really felt like I&#8217;ve had anything I wanted to say particularly. Whenever I have free time, I would much rather program or play guitar, or spend time with people than blog. Ugghhhh. I don&#8217;t know. Maybe I&#8217;ll regain my enthusiasm some time soon, but I don&#8217;t know. I&#8217;m tired, man. Goodnight.</p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

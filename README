@@ -1,3 +1,5 @@
+
+
 Ok, so I have a pretty solid layout in place. It's super customizable, and really pretty.
 
 I now want to write a ruby script that uses Kramdown to generate HTML from Markdown, and I can then do my own super-simple static site generator.
@@ -22,3 +24,4 @@ So my next step is to figure out how I want to organize posts, and how I want to
 
 (Probably markdown, and I will do something like YAML front-matter for meta-data) 
 
+Wow, this is way out-of-date, and I should probably do some major house-cleaning for this site, before I push it to the entire world. 

@@ -17,27 +17,37 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				More CS
-				</h2>
-		> Basically, the more you do CS, the more you realize that you are only doing a limited number of truly different things. Like searching, sorting, filtering, traversing, and so on... The number of times you are going to have to do binary search in some list, or that you are going to have to build some kind of linked list, or some growing array is probably dwarfed only by the number of times you are going to have to write nested loops, or getters and setters, or interface with some GUI via event listeners and callbacks and junk. The point is, given that all this stuff exists already, and is known, when you describe the stuff you are programming, you are bound to feel a little silly. And that's ok, because in CS, you do spend a couple years writing stuff that people have written countless times before, stuff which is a google search away, and which has surely been done better, and which is free of the design errors that make your work such a pain. Ideally, you should never write a piece of code that has been written elsewhere, since you are always trying to minimize the potential for errors, and Java collections are invariably going to get fixed if they are broken, while your linked list can randomly delete links for months without anyone necessarily paying enough attention to do anything about it. So why do you write it over again? Well, there are a couple of reasons, which don't really do much to quiet the creeping feeling that you are wasting your time. First, in the writing of the linked list, you gain experience with some programming techniques, in this case recursion, which you need in your toolbox, and you won't be able to write recursive functions well without practice. Second, by implementing methods that you use on a daily basis in an utterly unfamiliar way, you see the true power of API's. It really is a brilliant idea, that implementations don't matter, and that if you simply specify preconditions and postconditions, you can write the rest of the program without having to know or care how the things you are interacting with actually work. The whole idea of an API is entirely This is another draft that will be lost if not published, so here it is...
+				</h3>
+		<blockquote>
+<p>Basically, the more you do CS, the more you realize that you are only doing a limited number of truly different things. Like searching, sorting, filtering, traversing, and so on&#8230; The number of times you are going to have to do binary search in some list, or that you are going to have to build some kind of linked list, or some growing array is probably dwarfed only by the number of times you are going to have to write nested loops, or getters and setters, or interface with some GUI via event listeners and callbacks and junk. The point is, given that all this stuff exists already, and is known, when you describe the stuff you are programming, you are bound to feel a little silly. And that&#8217;s ok, because in CS, you do spend a couple years writing stuff that people have written countless times before, stuff which is a google search away, and which has surely been done better, and which is free of the design errors that make your work such a pain. Ideally, you should never write a piece of code that has been written elsewhere, since you are always trying to minimize the potential for errors, and Java collections are invariably going to get fixed if they are broken, while your linked list can randomly delete links for months without anyone necessarily paying enough attention to do anything about it. So why do you write it over again? Well, there are a couple of reasons, which don&#8217;t really do much to quiet the creeping feeling that you are wasting your time. First, in the writing of the linked list, you gain experience with some programming techniques, in this case recursion, which you need in your toolbox, and you won&#8217;t be able to write recursive functions well without practice. Second, by implementing methods that you use on a daily basis in an utterly unfamiliar way, you see the true power of API&#8217;s. It really is a brilliant idea, that implementations don&#8217;t matter, and that if you simply specify preconditions and postconditions, you can write the rest of the program without having to know or care how the things you are interacting with actually work. The whole idea of an API is entirely This is another draft that will be lost if not published, so here it is&#8230;</p>
+</blockquote>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

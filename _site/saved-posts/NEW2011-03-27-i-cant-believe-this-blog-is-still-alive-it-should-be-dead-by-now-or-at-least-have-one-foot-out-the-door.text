@@ -17,27 +17,35 @@
 <div class="container">
 	<div class="content">
 		<div class="page-header">
-<h1>Starlings of the Slipstream</h1>
+<h1>starlings of the slipstream</h1>
+<h3>thoughts on computers, life, philosophy</h3>
 			</div>
 			
 	<div class="row">
 		<div class="span3">
-			<ul>	
+			<div class="sidebar">
+<ul>	
 	<li><a href="/index.html">Home</a></li>
 	<li><a href="/about.html">About</a></li>
-	<li><a href="all-posts.html">All Posts</a></li>
+	<li><a href="/all-posts.html">All Posts</a></li>
+	<li><a href="/projects.html">Projects</a></li>
+	<li><a href="/writings.html">Writings</a></li>
 </ul>
+</div>
 			</div>
 			<div class="span13">
-				<h2>
+				<div class="post">
+				<h3>
 				I can't believe this blog is still alive, it should be dead by now or at least have one foot out the door
-				</h2>
-		So, as I hope you have noticed, I haven't posted anything in about a week, and anything in much longer than that. (self-deprecation...) But now I'm back, and, I'm excited to say, full of random junk that I will probably write down and post, because better have the detritus of my mind online instead of tucked away in the corners of my hard drive, rotting away. I'm just bounding with optimism and energy today. That actually was not sarcastic, but I am so deeply habituated to voicing enthusiasm and such only in a sarcastic manner that I naturally come across as sarcastic even when genuinely thrilled. Again, to emphasize, I am really feeling good. I'm in LA by the way, City of Angels, America's Second Largest City, and a really weird place to grow up. I'll be here for about a week, and then it's back to Providence, as school starts up again. My plans this week are minimal, just hang out with some friends, show some friends around the city, and catch up on sleep, relaxation, schoolwork, all that stuff so that when I return, I can focus on the future, unburdened by the detritus of the past couple months. (Second usage of the word in one post.) Before I forget, I'm reading a really good book, _ The Information _ by James Gleick, which is a whirlwind tour of information and communications technologies and theories through all of history. That doesn't do it justice, and I'm not done with it, so I will hold back on recommending it yet, but so far it is awesome. Last point before I end this post: I'm going on a date with a certain person when I get back to Providence, and I am super-psyched about that, though nervous as well. I have a lot more to say, but I want to get this post published to make my return official, and I'll be back soon. Goodnight, Providence, Good Morning, Los Angeles, Welcome back, blog. Returning soon, Spencer.
+				</h3>
+		<p>So, as I hope you have noticed, I haven&#8217;t posted anything in about a week, and anything in much longer than that. (self-deprecation&#8230;) But now I&#8217;m back, and, I&#8217;m excited to say, full of random junk that I will probably write down and post, because better have the detritus of my mind online instead of tucked away in the corners of my hard drive, rotting away. I&#8217;m just bounding with optimism and energy today. That actually was not sarcastic, but I am so deeply habituated to voicing enthusiasm and such only in a sarcastic manner that I naturally come across as sarcastic even when genuinely thrilled. Again, to emphasize, I am really feeling good. I&#8217;m in LA by the way, City of Angels, America&#8217;s Second Largest City, and a really weird place to grow up. I&#8217;ll be here for about a week, and then it&#8217;s back to Providence, as school starts up again. My plans this week are minimal, just hang out with some friends, show some friends around the city, and catch up on sleep, relaxation, schoolwork, all that stuff so that when I return, I can focus on the future, unburdened by the detritus of the past couple months. (Second usage of the word in one post.) Before I forget, I&#8217;m reading a really good book, _ The Information _ by James Gleick, which is a whirlwind tour of information and communications technologies and theories through all of history. That doesn&#8217;t do it justice, and I&#8217;m not done with it, so I will hold back on recommending it yet, but so far it is awesome. Last point before I end this post: I&#8217;m going on a date with a certain person when I get back to Providence, and I am super-psyched about that, though nervous as well. I have a lot more to say, but I want to get this post published to make my return official, and I&#8217;ll be back soon. Goodnight, Providence, Good Morning, Los Angeles, Welcome back, blog. Returning soon, Spencer.</p>
+				</div>
 				</div>
 	</div>
 	</div>
 <div class="footer">
 	<p>&copy; Spencer Gordon 2011- </p>
+	<p>Icons courtesy of <a	href="http://somerandomdude.com/work/sanscons/">P.J. Onori</a></p>
 </div>
 
 </div>

@@ -1,16 +1,23 @@
 ---
 layout: home
 ---
-	{% assign post = site.posts.first %}
-	<h2>{{ post.date | date: "%m/%d/%y" }} - {{ post.title }}</h2>
-<p>{{ post.content }}</p>
-<h6><a href="{{ post.url }}">permalink</a></h6>
-<br />
+
+{% for post in site.posts limit:5 %}
+<div class="post">
+<div class="clickable"><img	src="/images/icons/png/black/16x16/arrow3_se.png" alt="collapse">
+<h3>{{ post.date | date: "%m/%d/%y" }} - {{ post.title }}</h3>
+</div>
+<h6><a href="{{ post.url }}">permalink</a></h6>	
+<p>{{ post.content | markdownify }}</p>
+</div>
+{% endfor %}
+
+<div class="block">
 <h3>Older Posts</h3>
-{% for post in site.posts %}
-	{% unless forloop.first %} <p>{{ post.date | date: "%m/%d/%y" }} -
+{% for post in site.posts offset:6 %}
+<p>{{ post.date | date: "%m/%d/%y" }} -
 <a href="{{ post.url }}">{{ post.title }}</a></p>
-{% endunless %}
-	{% endfor %}
+{% endfor %}
+</div>
 
 
