@@ -1,27 +1,22 @@
+TODO: 
+
+- Update the list of posts, and make sure that the paragraph formatting isn't lost in the conversion from the giant wordpress dump
+I fixed all the formatting stuff, so now I just need to do everything else. Easy peasy.
+
+- Write some script that lets me save a text file, and then post it and have it show up on the site automatically, without any problems.
+
+- Write a script that can do all the redeployment needed. 
+
+- Get some analytics in place. 
+
+- Figure out some way of working email subscriptions into the mix
+Ok, MailChimp can handle that
+
+Also, I realize that I could totally easily deploy on Heroku, or Github Pages for free. 
+
+So why am I using this Linode?
 
 
-Ok, so I have a pretty solid layout in place. It's super customizable, and really pretty.
-
-I now want to write a ruby script that uses Kramdown to generate HTML from Markdown, and I can then do my own super-simple static site generator.
-
-COMPLETED:
-I can now parse posts in Markdown, and pop them into HTML with liquid templating
-I now have a script that will create the requisite folder for that
-
-TODO:
-Add metadata, and figure out how to extract it, and put it on the page correctly
-
-Compile all the posts for a 'recent posts'-type thing
-
-Get the css working even better
 
 
-I have it under git, so it can be all be nicely version-controlled.
 
-I can use less to generate CSS.
-
-So my next step is to figure out how I want to organize posts, and how I want to have them before site generation.
-
-(Probably markdown, and I will do something like YAML front-matter for meta-data) 
-
-Wow, this is way out-of-date, and I should probably do some major house-cleaning for this site, before I push it to the entire world. 

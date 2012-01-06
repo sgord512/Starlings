@@ -2,12 +2,14 @@
  * Headings, body text, lists, code, and more for a versatile and durable typography system
  * ---------------------------------------------------------------------------------------- */
 
+@import "/fonts/arvo-fontfacekit/stylesheet.css";
+@import "/fonts/Quicksand-fontfacekit/stylesheet.css";
 
 // BODY TEXT
 // ---------
 
 p {
-  #font > .shorthand(normal,@basefont,@baseline);
+  #font > .serif(normal,@basefont,@baseline);
   margin-bottom: @baseline / 2;
   small {
     font-size: @basefont - 2;
@@ -87,7 +89,6 @@ ol {
 }
 li {
 	font-size: 13px;
-	text-transform: uppercase;
   line-height: @baseline;
   color: @gray;
 }
@@ -187,3 +188,4 @@ pre {
   word-wrap: break-word;
 
 }
+

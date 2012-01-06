@@ -35,6 +35,7 @@ body {
 }
 
 .page-header {
+  font-family: "QuicksandBoldOblique", Sans-serif;						 
 	padding: 20px 20px 5px;
 	margin: -20px -20px 20px;
 	background-color: @header;	
@@ -71,7 +72,34 @@ body {
 .block {
 	.gray_block;
 }
-		
+
+.sidebar {
+ .gray_block;
+ #font > .serif(normal,@basefont,@baseline);
+ ul { list-style-image: url("/images/icons/png/black/16x16/arrow2_e.png"); }
+ a { color: @black;
+ 	 	 &:hover {
+		 		color: @black;
+				text-decoration: none;
+		 }
+  }
+}
+	
+.clickable_as_button() {
+	 cursor: pointer;
+	 display: inline;
+	 a { color: inherit;
+	 	 	 &:hover {
+		 	 color: inherit;
+			 text-decoration: none; 
+			 }
+	 }
+}
+
+.toggle {
+  margin-top:	10px;
+}
+
 .post {
 	.gray_block;
 	h3 { display: inline;
@@ -80,7 +108,7 @@ body {
 		 	 line-height: @baseline; }
 	p { clear: both; }
 	img { float: left; }
-	.clickable { display: inline; }
+	.clickable { .clickable_as_button; }
 }
 
 
@@ -106,6 +134,11 @@ a {
     color: @linkColorHover;
     text-decoration: underline;
   }
+
+	.unstyled {
+		 color: inherit;
+		 text-decoration: none;
+	}
 }
 
 // Quick floats
