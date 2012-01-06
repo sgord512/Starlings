@@ -11,8 +11,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link rel="stylesheet/less" type="text/css" href="/bootstrap/lib/bootstrap.less">
-  <script type="text/javascript" src="/js/production/less-1.1.5.min.js"></script>
-  <script type="text/javascript" src="/js/development/jquery-1.7.1.js"></script>
+  <script type="text/javascript" src="/js/{{ site.mode }}/less-1.1.5.{% if site.mode == 'production' %}min.{% endif %}js"></script>
+  <script type="text/javascript" src="/js/{{ site.mode }}/jquery-1.7.1.{% if site.mode == 'production' %}min.{% endif %}js"></script>
   <script type="text/javascript" src="/js/local/toggle.js"></script>
 </head>
 <body>

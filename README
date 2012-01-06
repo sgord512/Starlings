@@ -3,9 +3,12 @@ TODO:
 - Update the list of posts, and make sure that the paragraph formatting isn't lost in the conversion from the giant wordpress dump
 I fixed all the formatting stuff, so now I just need to do everything else. Easy peasy.
 
+- Clean up the repo, so that I can have push work smoothly, and then generate the site on the server
+Done. 
+
 - Write some script that lets me save a text file, and then post it and have it show up on the site automatically, without any problems.
 
-
+- Maybe set some way of adding posts on the website directly, through a javascript text editor, with some light MVC framework
 
 - Write a script that can do all the redeployment needed. 
 
@@ -19,6 +22,13 @@ Also, I realize that I could totally easily deploy on Heroku, or Github Pages fo
 So why am I using this Linode?
 
 
+Tools I want to have access to:
+- Rake
+- HighLine
+- Net-SSH
+- Less
 
+Ways to deploy: 
+- Rsync
 
-
+Ok, I now have a way to alternate between development and production modes super easily, though I still have the less dynamically compiling the css either way. I should fix that, and add some way to automatically switch
