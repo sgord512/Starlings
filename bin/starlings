@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+
+require 'slop'
+require 'highline/import'
+require 'net/ssh'
+
+host_ip = '173.255.226.5'
+user = 'sgord512'
+
+commands = Slop.new do
+  banner "Usage: starlings [command] [arguments]"
+  command :on do
+    description "Turns on the site"
+    execute do
+    end
+  end
+  command :off do
+    description "Turns off the site"
+    execute do
+    end
+  end
+  command :status do
+    description "Display the status of the site"
+    execute do
+      begin
+        Net::SSH.start(host_ip, user, :password => ask("Please input password: ") do |q| q.echo = false end) do |ssh|
+          puts "Connecting..."
+          case ssh.exec!("./status").strip
+            when "nil" then puts "currently offline"
+            when "t" then puts "currently online"
+            else puts "unknown status"
+          end
+          exit
+        end
+      rescue Net::SSH::AuthenticationFailed
+        puts "Authentication Failed..."
+      end
+    end
+  end
+
+  on :h, :help do
+    puts help
+  end
+end
+
+commands.parse
+
+  
