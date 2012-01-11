@@ -1,48 +1,55 @@
 #!/usr/bin/env ruby
 
-require 'slop'
+require 'trollop'
 require 'highline/import'
 require 'net/ssh'
 
-host_ip = '173.255.226.5'
-user = 'sgord512'
+HOST_IP = '173.255.226.5'
+USER = 'sgord512'
 
-commands = Slop.new do
-  banner "Usage: starlings [command] [arguments]"
-  command :on do
-    description "Turns on the site"
-    execute do
-    end
-  end
-  command :off do
-    description "Turns off the site"
-    execute do
-    end
-  end
-  command :status do
-    description "Display the status of the site"
-    execute do
-      begin
-        Net::SSH.start(host_ip, user, :password => ask("Please input password: ") do |q| q.echo = false end) do |ssh|
-          puts "Connecting..."
-          case ssh.exec!("./status").strip
-            when "nil" then puts "currently offline"
-            when "t" then puts "currently online"
-            else puts "unknown status"
-          end
-          exit
-        end
-      rescue Net::SSH::AuthenticationFailed
-        puts "Authentication Failed..."
-      end
-    end
-  end
+SUB_COMMANDS = %w(on off status)
 
-  on :h, :help do
-    puts help
-  end
+
+global_opt_parser = Trollop::Parser.new do
+  banner "Utility for various website related tasks"
+  stop_on SUB_COMMANDS
 end
 
-commands.parse
+opts = Trollop::with_standard_exception_handling global_opt_parser do
+  o = global_opt_parser.parse ARGV
+end
 
-  
+def status()
+  begin
+    Net::SSH.start(HOST_IP, USER, :password => ask("Please input password: ") do |q| q.echo = false end) do |ssh|
+      puts "Connecting..."
+      case ssh.exec!("./status").strip
+      when "nil" then puts "currently offline"
+      when "t" then puts "currently online"
+      else puts "unknown status"
+      end
+    end
+    rescue Net::SSH::AuthenticationFailed
+      puts "Authentication Failed..."
+    end
+end
+
+def on()
+end
+
+def off()
+end
+
+cmd = ARGV.shift
+case cmd
+when "on"
+  on
+when "off"
+  off
+when "status", nil
+  status
+else 
+  puts "Unknown subcommand: #{cmd.inspect}"
+  exit(FALSE)
+end
+

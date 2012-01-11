@@ -8,7 +8,7 @@ layout: home
 <h3>{{ post.date | date: "%m/%d/%y" }} - {{ post.title }}</h3>
 </div>
 <h6><a href="{{ post.url }}">permalink</a></h6>	
-<div class="toggle">{{ post.content | markdownify }}</div>
+<div class="toggle post-content">{{ post.content | markdownify }}</div>
 </div>
 {% endfor %}
 

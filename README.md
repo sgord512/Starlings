@@ -8,7 +8,7 @@ TODO:
 
 starlings:
 ----------
-How do I want the scripts to work: 
+### How do I want the scripts to work: ###
 - 'starlings on' should turn the site on, with whatever settings were last provided.
 - 'starlings off' should turn the site off.
 - 'starlings status' should tell me what is currently going on with the site. 
@@ -16,6 +16,7 @@ How do I want the scripts to work:
 
 - Get some analytics in place. 
 - Figure out some way of working email subscriptions into the mix
+I'm going to use MailChimp I think, though I should look into the options listed at stackparts.com
 - Figure out how I am going to serve everything
 
 server:
@@ -34,3 +35,7 @@ DONE:
 BUGS:
 =====
 - Post pages have lost their template	
+This is the same error I had a long long time ago, which I don't remember how I fixed, but it probably would be most helpful to go and figure out how other sites do their layout.  
+Ok, I have fixed it. Basically, the issue was that I had removed "_layouts/post.html". Then when I replaced that, I had to fix it up.
+Basically I made the posts layout be laid out inside the default page. This enables me to get the data to render, b/c I need it to be processed by Jekyll, and for that I need it to have YAML Front Matter.
+The related problem where I can't get any content to show up is the result of not having a file processed by Jekyll due to lack of YAML Front Matter.
