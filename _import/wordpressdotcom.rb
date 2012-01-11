@@ -44,7 +44,7 @@ module Jekyll
         end
 
         # name = "#{date.strftime('%Y-%m-%d')}-#{permalink_title}.html"
-        name = "#{date.strftime('%Y-%m-%d')}-#{permalink_title}.text"
+        name = "#{date.strftime('%Y-%m-%d')}-#{permalink_title}.md"
         header = {
           'layout' => type,
           'title'  => title,
