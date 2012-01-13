@@ -14,6 +14,7 @@ var server = http.createServer(function(request, response) {
 				//response.write(util.inspect(request, false, null, true));
 				//console.log(util.inspect(request, false, null, true));
 				//response.end();
+				console.log(util.inspect(request, false, null, true));
 				fileServer.serve(request, response);
 		});
 });
