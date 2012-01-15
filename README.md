@@ -40,3 +40,4 @@ Basically I made the posts layout be laid out inside the default page. This enab
 The related problem where I can't get any content to show up is the result of not having a file processed by Jekyll due to lack of YAML Front Matter.
 
 
+I modified this, and there should be some changes correspondingly in the repo.
