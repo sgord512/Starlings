@@ -1,24 +1,15 @@
 var http = require('http');
 var util = require('util');
-var node_static = require('node-static');
+var connect = require('connect');
+var path = require('path');
 
 
 
-
-var server = http.createServer(function(request, response) {
-		var fileServer = new(node_static.Server)('../_site');
-		request.addListener('end', function() {
-				// response.writeHead(200, {
-				//		'Content-Type': 'text/plain'
-		    //});
-				//response.write(util.inspect(request, false, null, true));
-				//console.log(util.inspect(request, false, null, true));
-				//response.end();
-				console.log(util.inspect(request, false, null, true));
-				fileServer.serve(request, response);
-		});
-});
+var server = connect.createServer(
+		connect.logger('dev'),
+		connect.static(path.join(__dirname, '..', '_site'), { maxAge: 60000 })
+);
 
 console.log("Server started.");
 
-server.listen(8000);
+server.listen(4000);

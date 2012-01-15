@@ -18,7 +18,13 @@
   <link rel="stylesheet" types="text/css"	href="/bootstrap/bootstrap.{% if site.mode == 'production' %}min.{%	endif %}css">
 {% endif %}
   <script type="text/javascript" src="/js/{{ site.mode }}/jquery-1.7.1.{% if site.mode == 'production' %}min.{% endif %}js"></script>
-  <script type="text/javascript" src="/js/local/toggle.js"></script>
+{% if page.toggle %}
+<script type="text/javascript" src="/js/local/toggle.js"></script>
+{% endif %}
+{% if page.raphael %}
+<script type="text/javascript" src="/js/{{ site.mode }}/raphael-2.0.1.{% if site.mode == 'production' %}min.{% endif %}js"></script>
+<script type="text/javascript" src="/js/local/truthy.js"></script>
+{% endif %}
 </head>
 <body>
 
