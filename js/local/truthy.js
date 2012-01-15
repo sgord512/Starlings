@@ -24,7 +24,6 @@
 $(document).ready(function() {
 		var width = $(".span13").width();
 		var paper = Raphael(document.getElementById("canvas"), width, width);
-		var rect = paper.rect(width / 8, width / 8, 3 * width / 4, 3 * width / 4, width / 8);
 		var test_expr = ["p", "and", ["q", "or", "r"]];
 		var needed_vars = ["p", "q", "r"];
 		var gap = 10;
@@ -36,6 +35,7 @@ $(document).ready(function() {
 						var c_heading = paper.text(x, y, vars[i]).attr({ 'fill': 'red', 'text-anchor': 'start', 'font-size': '30px', 'font-style': 'italic' });
 						texts.push(c_heading);
 						var box = c_heading.getBBox();
+						var divider = box.x + box.width
 						x += box.width + gap;
 				}
 		}

@@ -27,13 +27,13 @@ module DownmarkIt
 		(raw/"/<h\d>/").each do |header|
 			if(header.name.match(/^h\d$/))
 				header_level = header.name.match(/\d/).to_s.to_i
-				header.swap("#{"#" * header_level} #{header.inner_html}\r\n")
+				header.swap("#{"#" * header_level} #{header.inner_html}\n")
 			end
 		end
 		
 		# horizontal rulers
 		(raw/"hr").each do |hruler|
-			hruler.swap("\r\n---\r\n")
+			hruler.swap("\n---\n")
 		end
 		
 		# emphasis
@@ -92,10 +92,10 @@ module DownmarkIt
 					if li.name == "li"
 						nli = nested_ul(li, 0)
 						if (nli.match(/ - /))
-							li_inner = (li.inner_text.match(/^\r\n/))?("#{li.inner_text.gsub(/^\r\n/, "")}\r\n"):("- #{li.inner_text}\r\n")
+							li_inner = (li.inner_text.match(/^\n/))?("#{li.inner_text.gsub(/^\n/, "")}\n"):("- #{li.inner_text}\n")
 							li.swap("#{li_inner}")
 						else
-							li.swap("- #{nli}\r\n")
+							li.swap("- #{nli}\n")
 						end
 					end
 				end
@@ -111,10 +111,10 @@ module DownmarkIt
 					if li.name == "li"
 						nli = nested_ol(li, 0)
 						if (nli.match(/ \d+\. /))
-							li_inner = (li.inner_text.match(/^\r\n/))?("#{li.inner_text.gsub(/^\r\n/, "")}\r\n"):("#{level+=1}. #{li.inner_text}\r\n")
+							li_inner = (li.inner_text.match(/^\n/))?("#{li.inner_text.gsub(/^\n/, "")}\n"):("#{level+=1}. #{li.inner_text}\n")
 							li.swap("#{li_inner}")
 						else
-							li.swap("#{level+=1}. #{nli}\r\n")
+							li.swap("#{level+=1}. #{nli}\n")
 						end
 					end
 				end
@@ -125,7 +125,7 @@ module DownmarkIt
 		# lines
 		(raw /"p").each do |p|
 			if p.name == "p"
-				p.swap("\r\n#{p.inner_text}\r\n")
+				p.swap("\n#{p.inner_text}\n")
 			end
 		end
 		
@@ -158,10 +158,10 @@ module DownmarkIt
 			(li/">li").each do |cnli|
 				nnli = nested_ul(cnli, level + 1)
 				if (nnli.match(/ - /))
-					inner_li = (cnli.inner_text.match(/^\r\n/))?(""):(cnli.inner_text)
-					cnli.swap "\r\n#{" " * level}- #{inner_li}" unless inner_li == ""
+					inner_li = (cnli.inner_text.match(/^\n/))?(""):(cnli.inner_text)
+					cnli.swap "\n#{" " * level}- #{inner_li}" unless inner_li == ""
 				else
-					cnli.swap "\r\n#{" " * level}- #{nnli}"
+					cnli.swap "\n#{" " * level}- #{nnli}"
 				end
 			end
 			li.inner_html
@@ -186,10 +186,10 @@ module DownmarkIt
 			(li/">li").each do |cnli|
 				nnli = nested_ol(cnli, level + 1)
 				if (nnli.match(/ \d+. /))
-					inner_li = (cnli.inner_text.match(/^\r\n/))?(""):(cnli.inner_text)
-					cnli.swap "\r\n#{" " * level}#{nlevel+=1}. #{inner_li}" unless inner_li == ""
+					inner_li = (cnli.inner_text.match(/^\n/))?(""):(cnli.inner_text)
+					cnli.swap "\n#{" " * level}#{nlevel+=1}. #{inner_li}" unless inner_li == ""
 				else
-					cnli.swap "\r\n#{" " * level}#{nlevel+=1}. #{nnli}"
+					cnli.swap "\n#{" " * level}#{nlevel+=1}. #{nnli}"
 				end
 			end
 			li.inner_html
