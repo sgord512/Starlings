@@ -35,7 +35,7 @@ $(document).ready(function() {
 						var c_heading = paper.text(x, y, vars[i]).attr({ 'fill': 'red', 'text-anchor': 'start', 'font-size': '30px', 'font-style': 'italic' });
 						texts.push(c_heading);
 						var box = c_heading.getBBox();
-						var divider = box.x + box.width
+						var divider = paper.rect(box.x + box.width, box.y, gap, box.height).attr({ 'fill': 'black' });
 						x += box.width + gap;
 				}
 		}
