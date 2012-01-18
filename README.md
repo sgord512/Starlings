@@ -16,20 +16,29 @@ TODO:
 - Get some analytics in place. 
 - Figure out some way of working email subscriptions into the mix
 I'm going to use MailChimp I think, though I should look into the options listed at stackparts.com
-- Figure out how I am going to serve everything
+
+- Put a favicon in place. 
+- Get the side navigation to be shiny and orangeable just like the expanding ones
+- Keep working on my truth table app
+- Figure out a way to separate the non-blog stuff from the rest, so that I can run them separately, and don't have to recompile whenever I want to test those parts. 
+- Maybe I should just make the site dynamic entirely.??...!?...
+- Clean up all the excess in bootstrap that is making it annoying and hard to modify. 
+- Get a local copy of MathJax for testing purposes. 
+- Git hooks, or something like that. 
+- Figure out a way to udate the site and temporarily have an under-construction page put up. 
+- Figure out a way to server 404 errors. 
+- Get an actual file server set up. 
 
 server:
 -------
-- Use node
-This looks the most promising at the moment. I can get a really simple static server up and running on my linode, but I can't get it to accept requests. I will have to look into how that works. 
-- Use rack
-- Use lighttpd
-- Use nginx
+I have a basic server totally in place using node, that is actually pretty fast. 
+
 
 DONE:
 =====
 - Update the list of posts, and make sure that the paragraph formatting isn't lost in the conversion from the giant wordpress dump
 - Clean up the repo, so that I can have push work smoothly, and then generate the site on the server
+- Figure out a way to handle the serving
 
 BUGS:
 =====
