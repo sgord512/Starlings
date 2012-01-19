@@ -45,6 +45,17 @@ $(document).ready(function() {
 				top_row.append("<th> $$" + needed_vars[i] + "$$ </th>");
 		}
 		top_row.append("<th> $$" + to_latex(test_expr) + "$$ </th");
+
+		table_content = _.map(interpretations(3), function(s) { return s.concat(" ") });
+		for(var y = 0; y < table_content.length; y++) {
+				$("#logic_table").append("<tr></tr>");
+				var curr_row_elem = $("#logic_table tr:last");
+				var curr_row_arr = string_to_array(table_content[y]);
+				for (var i = 0; i < curr_row_arr.length; i++) { 
+						curr_row_elem.append("<td> $$" + truth_value_to_latex(curr_row_arr[i]) + "$$ </td>");
+				}
+		}
+				
 });
 
 function to_latex(expr) {
@@ -53,7 +64,6 @@ function to_latex(expr) {
 		if($.isArray(expr)) {
 				for (i in expr) {
 						curr = expr[i];
-						console.log(curr);
 						if (typeof curr == "string") { // maybe find a more efficient way of doing this
 								s += s_to_latex(curr) + " ";
 						}
@@ -65,6 +75,30 @@ function to_latex(expr) {
 		else return s_to_latex(expr);
 }
 
+function truth_value_to_latex(c) {
+		switch(c) {
+		case 'T':
+				return "\\top";
+		case 'F':
+				return "\\bot";
+		case ' ':
+				return "\\epsilon";
+		default:
+				console.log("this shouldn't be here: " + c);
+				break;
+				return "";
+		}
+}
+
+function string_to_array(s) {
+		var arr = [];
+		for(var i = 0; i < s.length; i++) {
+				arr = arr.concat(s.charAt(i));
+		}
+		return arr;
+}
+						
+
 function s_to_latex(s) {
 		switch(s) { 
 		case "and":
@@ -74,4 +108,15 @@ function s_to_latex(s) {
 		default: 
 				return s;
 		}
+}
+		
+function bifurcate() { return _.flatten(_.map(this, function(row) { return [row.concat("T"), row.concat("F")] })); }
+
+function interpretations(n) {
+		var arr = [[]];
+		for(var i = 1; i <= n; i++) {
+				console.log(i);
+				arr = bifurcate.call(arr);
+		}
+		return arr;
 }

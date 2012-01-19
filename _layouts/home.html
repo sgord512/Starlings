@@ -18,13 +18,23 @@
   <link rel="stylesheet" types="text/css"	href="/bootstrap/bootstrap.{% if site.mode == 'production' %}min.{%	endif %}css">
 {% endif %}
   <script type="text/javascript" src="/js/{{ site.mode }}/jquery-1.7.1.{% if site.mode == 'production' %}min.{% endif %}js"></script>
+<script type="text/javascript" src="/js/local/nav_toggle.js"></script>
 {% if page.toggle %}
 <script type="text/javascript" src="/js/local/toggle.js"></script>
 {% endif %}
 {% if page.raphael %}
 <script type="text/javascript" src="/js/{{ site.mode }}/raphael-2.0.1.{% if site.mode == 'production' %}min.{% endif %}js"></script>
+{% endif %}
+{% if page.mathjax %}
+<script type="text/javascript" src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}
+{% if page.underscore %}
+<script type="text/javascript" src="/js/{{ site.mode }}/underscore-1.3.0.{% if site.mode == 'production' %}min.{% endif	%}js"></script>
+{% endif %}
+{% if page.truthy %}
 <script type="text/javascript" src="/js/local/truthy.js"></script>
 {% endif %}
+
 </head>
 <body>
 
