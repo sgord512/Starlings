@@ -1,12 +1,13 @@
-var app = require('express').createServer();
+var express = require('express');
+var fs = require('fs');
+var app = express.createServer();
 var PORT = 4000;
+var oneDay = 864000;
 
-var server = connect.createServer(
-		connect.logger('dev'),
-		connect.static(path.join(__dirname, '..', '_site'), { maxAge: 60000 }),
-		connect.staticCache()
-);
+app.use(express.logger('default', fs.createWriteStream('http_log')));
+app.use(express.static(path.join(__dirname, "..", "_site"), { maxAge: oneDay });
+app.use(express.staticCache());
 
 console.log("Server started on port: " + PORT);
 
-server.listen(PORT);
+app.listen(PORT);
