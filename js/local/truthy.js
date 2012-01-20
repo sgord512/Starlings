@@ -115,7 +115,6 @@ function bifurcate() { return _.flatten(_.map(this, function(row) { return [row.
 function interpretations(n) {
 		var arr = [[]];
 		for(var i = 1; i <= n; i++) {
-				console.log(i);
 				arr = bifurcate.call(arr);
 		}
 		return arr;

@@ -9,7 +9,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
- * Date: Wed Jan 18 04:01:11 EST 2012
+ * Date: Fri Jan 20 01:24:15 EST 2012
  */
 /* Reset.less
  * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
@@ -264,7 +264,7 @@ body {
   line-height: 18px;
 }
 .sidebar ul {
-  list-style-image: url("/images/icons/png/black/16x16/arrow2_e.png");
+  list-style-type: none;
 }
 .sidebar a {
   color: #000000;

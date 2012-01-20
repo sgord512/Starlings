@@ -33,7 +33,7 @@ body{margin:0;font-family:"HelveticaNeue",Helvetica,Arial,sans-serif;font-size:1
 .variable{clear:both;}
 .container>.footer p{text-align:right;padding:10px 5px;color:#ffffff;}
 .block{padding:5px 10px 5px;margin:10px 0px 10px;background-color:#e6e6e6;text-align:justify;}
-.sidebar{padding:5px 10px 5px;margin:10px 0px 10px;background-color:#e6e6e6;text-align:justify;font-family:"ArvoRegular",Times New Roman,Times,serif;font-size:13px;font-weight:normal;line-height:18px;}.sidebar ul{list-style-image:url("/images/icons/png/black/16x16/arrow2_e.png");}
+.sidebar{padding:5px 10px 5px;margin:10px 0px 10px;background-color:#e6e6e6;text-align:justify;font-family:"ArvoRegular",Times New Roman,Times,serif;font-size:13px;font-weight:normal;line-height:18px;}.sidebar ul{list-style-type:none;}
 .sidebar a{color:#000000;}.sidebar a:hover{color:#000000;text-decoration:none;}
 .post-content{margin-top:10px;}
 .post{padding:5px 10px 5px;margin:10px 0px 10px;background-color:#e6e6e6;text-align:justify;}.post h3{display:inline;line-height:18px;}

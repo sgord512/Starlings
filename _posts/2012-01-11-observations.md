@@ -19,47 +19,47 @@ Upon going through my entire iTunes library, I have found 22 albums from 2011 th
 
 **Spencer's Top 10 Favorite Albums Discovered in 2011:**
 
-	1. _Album_ by Girls
+1. _Album_ by Girls
 
-	2. _And Out Come the Wolves..._ by Rancid
+2. _And Out Come the Wolves..._ by Rancid
 
-	3. _Bring the Family_ by John Hiatt
+3. _Bring the Family_ by John Hiatt
 
-	4. _Crazy Rhythms_ by The Feelies
+4. _Crazy Rhythms_ by The Feelies
 
-	5. _Dub Housing _by Pere Ubu
+5. _Dub Housing _by Pere Ubu
 
-	6. _Exile on Main Street_ by The Rolling Stones
+6. _Exile on Main Street_ by The Rolling Stones
 
-	7. _Ga Ga Ga Ga Ga _ by Spoon
+7. _Ga Ga Ga Ga Ga _ by Spoon
 
-	8. _Have Moicy!_ by Jeffrey Frederick, Unholy Modal Rounders, Michael Hurley
+8. _Have Moicy!_ by Jeffrey Frederick, Unholy Modal Rounders, Michael Hurley
 
-	9. _Horses_ by Patti Smith
+9. _Horses_ by Patti Smith
 
-	10. _Howling Wind_ by Graham Parker &amp; The Rumour
+10. _Howling Wind_ by Graham Parker &amp; The Rumour
 
-	11. _Icky Mettle_ by Archers of Loaf
+11. _Icky Mettle_ by Archers of Loaf
 
-	12. _Kaputt _by Destroyer
+12. _Kaputt _by Destroyer
 
-	13. _Los Angeles_ by X
+13. _Los Angeles_ by X
 
-	14. _Majesty Shredding_ by Superchunk
+14. _Majesty Shredding_ by Superchunk
 
-	15. _The Monitor_ by Titus Andronicus
+15. _The Monitor_ by Titus Andronicus
 
-	16. _Odessey and Oracle_ by The Zombies
+16. _Odessey and Oracle_ by The Zombies
 
-	17. _Pleased to Meet You_ by James
+17. _Pleased to Meet You_ by James
 
-	18. _There Goes Rhymin' Simon_ by Paul Simon
+18. _There Goes Rhymin' Simon_ by Paul Simon
 
-	19. _Tunnel of Love_ by Bruce Springsteen
+19. _Tunnel of Love_ by Bruce Springsteen
 
-	20. _16 Lover's Lane_ by The Go-Betweens
+20. _16 Lover's Lane_ by The Go-Betweens
 
-	21. _Car Wheels on a Gravel Road _by Lucinda Williams
+21. _Car Wheels on a Gravel Road _by Lucinda Williams
 
-	22. _Fishscale_ by Ghostface Killah
+22. _Fishscale_ by Ghostface Killah
 

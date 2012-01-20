@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Spencer''s Albums of 2011: "Album" by Girls'
+title: "Spencer's Albums of 2011: \"Album\" by Girls"
 tags:
 - deductive logic
 - dictionary software

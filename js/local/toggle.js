@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function () {
 
 		var e = "expand";
 		var c = "collapse";
